@@ -1,23 +1,5 @@
 import java.util.Scanner;
 
-/**
- * 
- * 【システム仕様】
- * - 10列 × 8座席の座席配置
- * - 列: A～J、座席: 1～8
- * - true=予約済み、false=空き
- * 
- * 【処理フロー】
- * 1. 座席表示（2重ループで行と列を処理）
- * 2. ユーザーが「A-3」の形式で座席指定
- * 3. 空き状況を確認して予約 または キャンセル
- * 4. 更新後の座席表示
- * 
- * 【必須実装】
- * - 座席表示メソッド（2重ループ使用）
- * - 座席予約メソッド
- * - 予約キャンセルメソッド
- */
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
